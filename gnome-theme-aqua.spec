@@ -2,7 +2,7 @@ Summary:	Aqua theme from MacOS X
 Summary(pl):	Motyw aqua z MacOS X
 Name:		gnome-theme-aqua
 Version:	1.0
-Release:	2
+Release:	3
 License:	Free
 Group:		X11/Amusements
 Source0:	http://www.lucidus.uklinux.net/metathemes/metatheme-aqua-%{version}.tar.gz
@@ -10,15 +10,16 @@ Source0:	http://www.lucidus.uklinux.net/metathemes/metatheme-aqua-%{version}.tar
 URL:		http://sunshineinabag.co.uk/
 BuildRequires:	bzip2
 BuildRequires:	tar
+Buildrequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	gtk-theme-aqua
 Requires:	nautilus-theme-aqua
 Requires:	sawfish-theme-aqua
 Requires:	xmms-skin-aqua
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_xmmsskinsdir	%(xmms-config --data-dir)/Skins
+%define		_xmmsskinsdir	%{xmms_datadir}/Skins
 
 %description
 Aqua theme from MacOS X for GTK, Nautilus, Sawfish and XMMS.
@@ -30,8 +31,8 @@ Motyw aqua z MacOS X dla GTK, Nautilusa, Sawfisza i XMMS-a.
 Summary:	Aqua skin
 Summary(pl):	Skórka aqua
 Group:		X11/Amusements
-Requires:	tar
 Requires:	bzip2
+Requires:	tar
 Requires:	xmms
 
 %description -n xmms-skin-aqua
