@@ -10,7 +10,7 @@ Source0:	http://www.lucidus.uklinux.net/metathemes/metatheme-aqua-%{version}.tar
 URL:		http://sunshineinabag.co.uk/
 BuildRequires:	bzip2
 BuildRequires:	tar
-Buildrequires:	rpmbuild(macros) >= 1.125
+BuildRequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel
 Requires:	gtk-theme-aqua
 Requires:	nautilus-theme-aqua
