@@ -1,5 +1,5 @@
 Summary:	Aqua theme from MacOS X
-Summary(pl):	Temat aqua z MacOS X
+Summary(pl):	Motyw aqua z MacOS X
 Name:		gnome-theme-aqua
 Version:	1.0
 Release:	2
@@ -23,7 +23,7 @@ BuildArch:	noarch
 Aqua theme from MacOS X for GTK, Nautilus, Sawfish and XMMS.
 
 %description -l pl
-Temat aqua z MacOS X dla GTK, Nautilusa, Sawfisza i XMMS-a.
+Motyw aqua z MacOS X dla GTK, Nautilusa, Sawfisza i XMMS-a.
 
 %package -n xmms-skin-aqua
 Summary:	Aqua skin
@@ -41,7 +41,7 @@ Skórka aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
 
 %package -n gtk-theme-aqua
 Summary:	Aqua theme
-Summary(pl):	Temat aqua
+Summary(pl):	Motyw aqua
 Group:		Themes/Gtk
 Requires:	gtk-engines
 
@@ -49,11 +49,11 @@ Requires:	gtk-engines
 An aqua-like theme. You may be interested in gnome-theme-aqua package.
 
 %description -n gtk-theme-aqua -l pl
-Temat bazuj±cy na aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
+Motyw bazuj±cy na aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
 
 %package -n nautilus-theme-aqua
 Summary:	Aqua theme
-Summary(pl):	Temat aqua
+Summary(pl):	Motyw aqua
 Group:		X11/Amusements
 Requires:	nautilus
 
@@ -61,11 +61,11 @@ Requires:	nautilus
 An aqua-like theme. You may be interested in gnome-theme-aqua package.
 
 %description -n nautilus-theme-aqua -l pl
-Temat bazuj±cy na aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
+Motyw bazuj±cy na aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
 
 %package -n sawfish-theme-aqua
 Summary:	Aqua theme
-Summary(pl):	Temat aqua
+Summary(pl):	Motyw aqua
 Group:		X11/Amusements
 Requires:	sawfish
 
@@ -73,7 +73,7 @@ Requires:	sawfish
 An aqua-like theme. You may be interested in gnome-theme-aqua package.
 
 %description -n sawfish-theme-aqua -l pl
-Temat bazuj±cy na aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
+Motyw bazuj±cy na aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
 
 %prep
 %setup -q -n metatheme-aqua-1.0
