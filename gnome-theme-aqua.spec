@@ -6,6 +6,7 @@ Release:	2
 License:	Free
 Group:		X11/Amusements
 Source0:	http://www.lucidus.uklinux.net/metathemes/metatheme-aqua-%{version}.tar.gz
+# Source0-md5:	803fb932866636855240a88b838a9d95
 URL:		http://sunshineinabag.co.uk/
 BuildRequires:	bzip2
 BuildRequires:	tar
