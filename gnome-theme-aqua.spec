@@ -2,7 +2,7 @@ Summary:	Aqua theme from MacOS X
 Summary(pl):	Temat aqua z MacOS X
 Name:		gnome-theme-aqua
 Version:	1.0
-Release:	1
+Release:	2
 License:	Free
 Group:		X11/Amusements
 Source0:	http://www.lucidus.uklinux.net/metathemes/metatheme-aqua-%{version}.tar.gz
@@ -17,7 +17,6 @@ Requires:	sawfish-theme-aqua
 Requires:	xmms-skin-aqua
 BuildArch:	noarch
 
-%define		_prefix		/usr/X11R6
 %define		_xmmsskinsdir	%(xmms-config --data-dir)/Skins
 
 %description
