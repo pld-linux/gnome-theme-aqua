@@ -2,7 +2,7 @@ Summary:	Aqua theme from MacOS X
 Summary(pl):	Motyw aqua z MacOS X
 Name:		gnome-theme-aqua
 Version:	1.0
-Release:	3
+Release:	4
 License:	Free
 Group:		X11/Amusements
 Source0:	http://www.lucidus.uklinux.net/metathemes/metatheme-aqua-%{version}.tar.gz
@@ -44,7 +44,7 @@ Skórka aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
 %package -n gtk-theme-aqua
 Summary:	Aqua theme
 Summary(pl):	Motyw aqua
-Group:		Themes/Gtk
+Group:		Themes/GTK+
 Requires:	gtk-engines
 
 %description -n gtk-theme-aqua
