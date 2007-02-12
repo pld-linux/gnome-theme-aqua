@@ -1,5 +1,5 @@
 Summary:	Aqua theme from MacOS X
-Summary(pl):	Motyw aqua z MacOS X
+Summary(pl.UTF-8):   Motyw aqua z MacOS X
 Name:		gnome-theme-aqua
 Version:	1.0
 Release:	4
@@ -24,12 +24,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Aqua theme from MacOS X for GTK, Nautilus, Sawfish and XMMS.
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw aqua z MacOS X dla GTK, Nautilusa, Sawfisza i XMMS-a.
 
 %package -n xmms-skin-aqua
 Summary:	Aqua skin
-Summary(pl):	Skórka aqua
+Summary(pl.UTF-8):   SkÃ³rka aqua
 Group:		X11/Amusements
 Requires:	bzip2
 Requires:	tar
@@ -38,44 +38,44 @@ Requires:	xmms
 %description -n xmms-skin-aqua
 Aqua skin. You may be interested in gnome-theme-aqua package.
 
-%description -n xmms-skin-aqua -l pl
-Skórka aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
+%description -n xmms-skin-aqua -l pl.UTF-8
+SkÃ³rka aqua. MoÅ¼na teÅ¼ sprÃ³bowaÄ‡ pakietu gnome-theme-aqua.
 
 %package -n gtk-theme-aqua
 Summary:	Aqua theme
-Summary(pl):	Motyw aqua
+Summary(pl.UTF-8):   Motyw aqua
 Group:		Themes/GTK+
 Requires:	gtk-engines
 
 %description -n gtk-theme-aqua
 An aqua-like theme. You may be interested in gnome-theme-aqua package.
 
-%description -n gtk-theme-aqua -l pl
-Motyw bazuj±cy na aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
+%description -n gtk-theme-aqua -l pl.UTF-8
+Motyw bazujÄ…cy na aqua. MoÅ¼na teÅ¼ sprÃ³bowaÄ‡ pakietu gnome-theme-aqua.
 
 %package -n nautilus-theme-aqua
 Summary:	Aqua theme
-Summary(pl):	Motyw aqua
+Summary(pl.UTF-8):   Motyw aqua
 Group:		X11/Amusements
 Requires:	nautilus
 
 %description -n nautilus-theme-aqua
 An aqua-like theme. You may be interested in gnome-theme-aqua package.
 
-%description -n nautilus-theme-aqua -l pl
-Motyw bazuj±cy na aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
+%description -n nautilus-theme-aqua -l pl.UTF-8
+Motyw bazujÄ…cy na aqua. MoÅ¼na teÅ¼ sprÃ³bowaÄ‡ pakietu gnome-theme-aqua.
 
 %package -n sawfish-theme-aqua
 Summary:	Aqua theme
-Summary(pl):	Motyw aqua
+Summary(pl.UTF-8):   Motyw aqua
 Group:		X11/Amusements
 Requires:	sawfish
 
 %description -n sawfish-theme-aqua
 An aqua-like theme. You may be interested in gnome-theme-aqua package.
 
-%description -n sawfish-theme-aqua -l pl
-Motyw bazuj±cy na aqua. Mo¿na te¿ spróbowaæ pakietu gnome-theme-aqua.
+%description -n sawfish-theme-aqua -l pl.UTF-8
+Motyw bazujÄ…cy na aqua. MoÅ¼na teÅ¼ sprÃ³bowaÄ‡ pakietu gnome-theme-aqua.
 
 %prep
 %setup -q -n metatheme-aqua-1.0
